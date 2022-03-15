@@ -1,0 +1,478 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navigation, .content, .top, .description, .slogan, .pic_chair, .sleeping, .perfect_escape, .past_guests, .pic_table, .come_together, .contact, .footer{
+  display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+/*  HEADER   */
+.navigation{
+    width: 100%;
+    height: 80px;
+    background-color: #52503B;
+}
+.content{
+    width: 85%;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_p{
+    width: 20%;
+}
+.content_p2{
+    width: 10%;
+}
+.logo{
+    width: 70%;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_list li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    padding: 
+}
+.nav_list a:hover{
+    color:coral;
+    border-bottom:1px solid white;
+}
+.booking{
+    color:#52503B;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 18px;
+    border: 0px;
+}
+.booking:hover{
+    color:orange;
+    border:2px solid orange;
+}
+.booking:active{
+    padding: 8px 16px;
+}
+
+
+
+.top{
+    width: 100%;
+    height: 800px;
+    background: url(images/bg_house.png) no-repeat;
+    background-size:cover;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.top .content{
+    flex-direction: column;
+    justify-content: center;
+}
+.top_title{
+    font-size:48px;
+    color: #fff;
+    text-align: center;
+}
+.location{
+    font-size:14px;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.mouse img{
+    width: 100%;
+    height: 80%;
+}
+.mouse{
+    text-align: center;
+    width: 3%;
+    height: 12%;
+    border: 3px solid white;
+    border-radius: 30px
+}
+.mouse:hover{
+    border: 3px solid yellow;
+}
+.mouse:active{
+    border: 3px solid yellow;
+    background-color: rgb(255,255,255,30%)
+}
+.logo_title{
+    width: 30%;
+    text-align: center;
+}
+
+/* --------Description-------------------*/
+.description{
+    width: 100%;
+    height: 410px;
+    background-color: #FAF8F0;
+}
+.two_col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+}
+.or_line{
+    height: 8px;
+    width: 42px;
+    background-color: #E08631;
+}
+.left{
+    width: 50%;
+    font-size: 14px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%; 
+    font-size: 13px;
+    padding-bottom: 3%;
+}
+.book{
+    color: #fff;
+    background-color: #52503B;
+    padding: 11px 18px;
+    border-radius: 5px;
+}
+.book:hover{
+    color:orange;
+}
+.book:active{
+    padding: 9px 16px;
+}
+/*---------------------------------------*/
+.slogan{
+    width: 100%;
+    height: 568px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.slogan_txt{
+    width: 85%;
+    font-size:96px;
+    font-weight: 700;
+    color:#52503B;
+     text-align: center;
+}
+.pic_chair{
+    width: 100%;
+    height: 660px;
+    background: url(images/chair.png) no-repeat;
+    background-size:cover;
+}
+/*------------Sleeping arrangements----------*/
+.sleeping{
+    width: 100%;
+    height: 530px;
+    color:#52503B;
+    background-color: #FAF8F0;
+}
+.sleeping .content1{
+    justify-content: space-between;
+}
+.top_of_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    width: 45%;
+    height: 40%;
+    text-align: center;
+}
+.bot_of_page{
+    width: 90%;
+    display: flex;
+    height: 50%;
+    
+}
+.bot_page_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.page_title{
+    font-size: 32px;
+}
+.sleep_txt{
+    font-size:14px;
+}
+.sleep_title{
+    font-size:16px;
+}
+/*-------------------------------------------*/
+
+/*-----------Perfect escape--------------*/
+.perfect_escape{
+    width: 100%;
+    height: 726px;
+    color:#52503B;  
+}
+.perfect_escape .content1{
+    align-items: flex-start;
+    width: 95%;
+}
+.perfect_escape .top_of_page{
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-around;
+}
+.perfect_escape .two_col{
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+.string{
+    display: flex;
+}
+.text_padd{
+    margin-left: 20px;
+}
+.perfect_escape .left, .perfect_escape .right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    text-align: start;
+}
+/*---------------------------------------*/
+
+/*\\\\\\\\\\\\\\\\past quests\\\\\\\\\\\*/
+.past_guests{
+    width: 100%;
+    height: 682px;
+    background-color: #FAF8F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.past_guests .top_of_page{
+    height: 20%;
+}
+.slider{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.slider_cont{
+    padding: 1% 2%;
+    background-color: #fff;
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.comment{
+    color:#333333;
+    font-size: 18px;
+}
+.description_txt{
+    color:#333333;
+    font-size: 14px;
+}
+.name_guest{
+    color:#333333;
+    font-size: 14px;
+    border-left: 2px solid orange;
+    padding: 5px 10px ;
+}
+.stars ul{
+    list-style: none;
+    display: flex;
+
+}
+.stars li{
+        font-size:26px;
+}
+/*---------------------------------------*/
+.pic_table{
+    width: 100%;
+    height: 600px;
+    background: url(images/bg_table.png) no-repeat;
+    background-size: cover;
+}
+/*----------------Together---------------*/
+.come_together{
+    width: 100%;
+    height: 366px;
+    color:#52503B;  
+}
+.come_together .container1{
+    width: 80%;
+    height: 80%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.come_together .top_of_page{
+    width: 40%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+}
+.top_left{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column1{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.string1{
+    display: flex;
+}
+/*---------------------------------------*/
+
+/*-----------Contact---------------------*/
+.contact{
+    width: 100%;
+    height: 478px;
+    background-color: #FAF8F0;
+    color: #52503B;
+}
+.contact .content{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 70%;
+}
+.content .top_of_page{
+    height: 60%;
+    justify-content: space-around;
+}
+.butts{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.contact_us{
+    color:#52503B;
+    background-color: rgb(0,0,0,0);
+    border: 3px solid #52503B;  
+    padding: 9px 16px;
+    border-radius: 5px;
+}
+.contact_us:hover{
+    color:orange;
+}
+.contact_us:active{
+    padding: 7px 14px;
+}
+
+
+/*----------Footer----------------------*/
+.footer{
+    width: 100%;
+    height: 608px;
+    background-color: #52503B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav_contact{
+     display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 35%;
+}
+.navig{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color:#fff;
+}
+.navig a{
+    text-decoration: none;
+    color: #fff;
+}
+.navig li{
+       padding:10px 0 0 0;
+}
+.navig a:hover{
+    color:coral;
+    border-bottom:1px solid white;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+.sm_img{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 45%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.email_space{
+    padding: 15px 70% 15px 15px;
+    border-radius: 5px;
+    border:0px;
+}
+.sub{
+    margin-left: -65px;
+    border-radius: 10px;
+    border:0px;
+    background-color: #52503B;
+    color:#fff;
+    padding: 5px 2px;
+}
+.sub:hover{
+    color:orange;
+}
+.sub:active{
+    padding: 7px 3px;
+}
+
+.text_footer{
+    color:#fff;
+    font-size:14px;
+}
+.logo_img{
+    text-align: center;
+}
+.rights img{
+    width: 30%;
+}
+.rights{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+}
